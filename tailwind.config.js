@@ -1,5 +1,9 @@
 module.exports = {
-  purge: ["./src/**/*.html", "./src/**/*.js", "./src/**/*.jsx"],
+  purge: {
+    enabled: process.env.NODE_ENV === "production",
+    content: ["./src/**/*.html", "./src/**/*.js", "./src/**/*.jsx"],
+    options: {},
+  },
   theme: {
     extend: {},
   },

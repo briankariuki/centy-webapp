@@ -19,11 +19,11 @@ class App extends Component {
       <Provider store={store}>
         <Router>
           <div className="relative flex flex-col min-h-screen">
-            <div className="w-full fixed top-0 z-20">
+            <div className="w-full fixed top-0 z-20 border-b">
               <Navbar />
             </div>
 
-            <main className="mt-16 relative flex-1 w-full">
+            <main className="my-16 relative flex-1 flex w-full">
               <Switch>
                 <Route path="/" component={HomePage} exact />
               </Switch>

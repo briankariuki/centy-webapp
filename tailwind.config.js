@@ -33,6 +33,9 @@ module.exports = {
         96: "24rem",
         120: "30rem",
       },
+      screens: {
+        xxl: "1440px",
+      },
       fontSize: {
         xxs: "0.5rem",
         "7xl": "5rem",

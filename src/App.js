@@ -13,9 +13,14 @@ import Navbar from "./components/Navbar";
 import Bfooter from "./components/Bfooter";
 import HomePage from "./pages/HomePage";
 import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
 
 class App extends Component {
+  state = {
+    isAuthenticated: false,
+  };
   render() {
+    const { isAuthenticated } = this.state.isAuthenticated;
     return (
       <Provider store={store}>
         <Router>
@@ -26,6 +31,11 @@ class App extends Component {
 
             <main className="my-16 relative flex-1 flex w-full">
               <Switch>
+                {!isAuthenticated && <Redirect from="/home" to="/" exact />}
+                {isAuthenticated && (
+                  <Redirect from="/login" to="/my-dashboard" exact />
+                )}
+                <Route path="/my-dashboard" component={Dashboard} exact />
                 <Route path="/" component={HomePage} exact />
                 <Route path="/login" component={Login} exact />
               </Switch>

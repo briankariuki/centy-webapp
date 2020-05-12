@@ -5,7 +5,7 @@ class Bfooter extends Component {
   render() {
     return (
       <div className=" bg-centylightgrey py-6 px-6 lg:px-0">
-        <div className="max-w-screen-xl lg:w-4/5 mx-auto lg:flex items-center justify-between">
+        <div className="max-w-screen-xxl lg:w-4/5 mx-auto lg:flex items-center justify-between">
           <div>
             <p className="font-medium">Mwalimu Smart | All rights reserved</p>
           </div>

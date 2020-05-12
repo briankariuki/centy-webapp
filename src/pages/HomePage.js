@@ -5,7 +5,7 @@ import Homebanner from "../assets/Group-333.png";
 class HomePage extends Component {
   render() {
     return (
-      <div className="max-w-screen-xl h-full w-full lg:w-4/5 mx-auto">
+      <div className="max-w-screen-xxl h-full w-full lg:w-4/5 mx-auto">
         <div className="lg:flex items-center">
           <div className="order-last lg:w-1/2">
             <div className="mx-auto lg:mt-20 mt-4 ">

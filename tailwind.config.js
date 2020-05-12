@@ -17,6 +17,7 @@ module.exports = {
         centyblue: "#007FD6",
         centydark: "#111111",
         centygrey: "#737373",
+        centygrey2: "#D2D2D2",
         centylightblue: "#FBFBFF",
         centylightgrey: "#F8F8F8",
         centylightdark: "#BEBEBE",

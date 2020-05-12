@@ -1,9 +1,11 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import Homebanner from "../assets/Group-333.png";
+
 class HomePage extends Component {
   render() {
     return (
-      <div className="max-w-screen-xl h-full lg:w-4/5 mx-auto">
+      <div className="max-w-screen-xl h-full w-full lg:w-4/5 mx-auto">
         <div className="lg:flex items-center">
           <div className="order-last lg:w-1/2">
             <div className="mx-auto lg:mt-20 mt-4 ">
@@ -11,7 +13,7 @@ class HomePage extends Component {
             </div>
           </div>
           <div className="order-first flex flex-col justify-center lg:w-1/2">
-            <div className="lg:w-9/10 lg:mt-24">
+            <div className="lg:w-9/10 lg:mt-12">
               <div className="px-6 mt-8 lg:mt-0 lg:px-0">
                 <h2 className="mt-4 leading-none font-bold lg:text-5xl text-3xl font-gilroy text-centydark">
                   Welcome to Mwalimu Smart
@@ -28,10 +30,11 @@ class HomePage extends Component {
                 <p className="lg:mt-8 mt-4 text-base lg:text-xl text-centydark">
                   Get Started Today
                 </p>
-
-                <button className="mt-4 w-48 py-3 bg-centygreen text-white rounded font-medium focus:outline-none hover:shadow-lg">
-                  Sign Up
-                </button>
+                <Link to="/login">
+                  <button className="mt-4 w-48 py-3 bg-centygreen text-white rounded font-medium focus:outline-none hover:shadow-lg">
+                    Sign in
+                  </button>
+                </Link>
                 <p className="mt-12 text-base lg:text-xl text-centydark">
                   Or Download the App
                 </p>

@@ -12,6 +12,7 @@ import store from "./store";
 import Navbar from "./components/Navbar";
 import Bfooter from "./components/Bfooter";
 import HomePage from "./pages/HomePage";
+import Login from "./pages/Login";
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ class App extends Component {
             <main className="my-16 relative flex-1 flex w-full">
               <Switch>
                 <Route path="/" component={HomePage} exact />
+                <Route path="/login" component={Login} exact />
               </Switch>
             </main>
             <div>

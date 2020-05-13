@@ -204,3 +204,19 @@ html {
 .text-anchor-middle {
   text-anchor: middle;
 }
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 282.7433388230814;
+  }
+}
+@keyframes progress2 {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+@keyframes progress3 {
+  0% {
+    width: 0 100%;
+  }
+}

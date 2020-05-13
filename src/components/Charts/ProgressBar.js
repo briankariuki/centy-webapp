@@ -20,10 +20,9 @@ const ProgressBar = (props) => {
   const circumference = 2 * Math.PI * radius;
 
   useEffect(() => {
-    const progressOffset = ((100 - progress) / 100) * circumference;
+    const progressOffset = (progress / 100) * circumference;
     setOffset(progressOffset);
-    circleRef.current.style =
-      "transition: stroke-dashoffset 350ms ease-in;  animation-direction: reverse;";
+    circleRef.current.style = "animation: progress 750ms ease-in-out forwards;";
   }, [setOffset, circumference, progress, offset]);
 
   return (
@@ -45,8 +44,7 @@ const ProgressBar = (props) => {
           className="fill-none"
           ref={circleRef}
           stroke={circleTwoStroke}
-          strokeDasharray={circumference}
-          strokeDashoffset={offset}
+          strokeDasharray={offset}
           cx={center}
           cy={center}
           r={radius}

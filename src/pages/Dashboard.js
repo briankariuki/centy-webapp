@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Banner from "../components/Dashboard/Banner";
 import Progress from "../components/Dashboard/Progress";
 import SubjectsCard from "../components/Dashboard/SubjectsCard";
+import ExamsCard from "../components/Dashboard/ExamsCard";
 
 class Dashboard extends Component {
   render() {
@@ -13,8 +14,11 @@ class Dashboard extends Component {
             <Progress />
           </div>
         </div>
-        <div className="mt-6 lg:flex lg:space-x-8 space-x-0">
+        <div className="lg:mt-12 mt-6 lg:flex lg:space-x-8 space-x-0">
           <SubjectsCard />
+          <div className="mt-4 lg:mt-0">
+            <ExamsCard />
+          </div>
         </div>
       </div>
     );

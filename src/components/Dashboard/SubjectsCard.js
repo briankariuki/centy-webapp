@@ -5,8 +5,13 @@ class SubjectCard extends Component {
     return (
       <div className="rounded-lg shadow-textarea">
         <div className=" px-4 py-6">
-          <h2 className="font-medium text-lg text-centydark">Subjects</h2>
-          <div className="mt-4 min-w-80 lg:min-w-0 lg:w-80">
+          <div className="flex items-center justify-between">
+            <h2 className="font-medium text-lg text-centydark">Subjects</h2>
+            <button className="w-20 px-2 py-2 bg-green-200 text-centygreen text-sm rounded font-medium focus:outline-none hover:text-white hover:bg-centygreen">
+              See All
+            </button>
+          </div>
+          <div className="mt-6 min-w-80 lg:min-w-0 lg:w-80">
             <ul className="space-y-4 list-style-none">
               <li className="">
                 <button className=" w-full hover:shadow shadow-textarea rounded-md p-3 flex items-center bg-white justify-between focus:outline-none">
@@ -198,7 +203,7 @@ class SubjectCard extends Component {
                     </div>
                     <div className="px-4">
                       <p className="text-centydark font-medium text-lg ">
-                        Chemistry
+                        Biology
                       </p>
                     </div>
                   </div>

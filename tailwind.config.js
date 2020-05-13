@@ -11,9 +11,14 @@ module.exports = {
         boxshadow: "0px 0px 6px rgba(0, 0, 0, 0.16)",
         boxshadowlg: "0 5px 30px rgba(0,0,0,.1), 0 2px 30px rgba(0,0,0,.07);",
         centyshadow: "0px 10px 30px rgba(0, 0, 0, 0.04)",
+        centyshadow2: "0px 0px 2px rgba(0, 0, 0, 0.16)",
       },
       colors: {
         centygreen: "#00BB79",
+        centyorange: "#FF9057",
+        centypink: "#9013B4",
+        centyteal: "#00B1D6",
+        centypurple: "#1929D9",
         centyblue: "#007FD6",
         centydark: "#111111",
         centygrey: "#737373",
@@ -27,6 +32,7 @@ module.exports = {
         11: "2.90rem",
         18: "4.50rem",
         28: "7rem",
+        36: "9rem",
         72: "18rem",
         80: "20rem",
         88: "22rem",
@@ -47,6 +53,10 @@ module.exports = {
         md: "768px",
         lg: "1024px",
       },
+      maxWidth: {
+        content: "max-content",
+      },
+
       zIndex: {
         999: "999",
       },

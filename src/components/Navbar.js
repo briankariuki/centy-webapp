@@ -94,7 +94,7 @@ class Navbar extends Component {
 
             <div>
               <button
-                class="max-w-xs flex h-10 w-10 items-center text-sm rounded-full bg-gray-200 text-centygrey focus:outline-none focus:shadow-lg hover:bg-green-200 hover:text-centygreen"
+                className="max-w-xs flex h-10 w-10 items-center text-sm rounded-full bg-gray-200 text-centygrey focus:outline-none focus:shadow-lg hover:bg-green-200 hover:text-centygreen"
                 id="user-menu"
                 aria-label="User menu"
                 aria-haspopup="true"
@@ -103,9 +103,9 @@ class Navbar extends Component {
                 <svg
                   fill="none"
                   className="mx-auto h-6 w-6"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
                 >
@@ -113,17 +113,17 @@ class Navbar extends Component {
                 </svg>
               </button>
             </div>
-            <div class="ml-3 relative">
+            <div className="ml-3 flex-shrink-0 relative">
               <div>
                 <button
-                  class="max-w-xs flex items-center text-sm rounded-full text-white focus:outline-none focus:shadow-lg"
+                  className="max-w-xs flex items-center text-sm rounded-full text-white focus:outline-none focus:shadow-lg"
                   id="user-menu"
                   aria-label="User menu"
                   aria-haspopup="true"
                   onClick={this.toggleDropdown}
                 >
                   <img
-                    class="h-10 w-10 rounded-full"
+                    className="h-10 w-10 rounded-full"
                     src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                     alt=""
                   />
@@ -139,30 +139,30 @@ class Navbar extends Component {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <div class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-xl">
+                <div className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-xl">
                   <div
-                    class="py-1 rounded-md bg-white shadow-xs"
+                    className="py-1 rounded-md bg-white shadow-xs"
                     role="menu"
                     aria-orientation="vertical"
                     aria-labelledby="user-menu"
                   >
                     <a
                       href="#"
-                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                       role="menuitem"
                     >
                       Your Profile
                     </a>
                     <a
                       href="#"
-                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                       role="menuitem"
                     >
                       Settings
                     </a>
                     <a
                       href="#"
-                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                       role="menuitem"
                     >
                       Sign out

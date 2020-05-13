@@ -127,7 +127,7 @@ class HomePage extends Component {
                             fill="#fff"
                             stroke="#fff"
                             stroke-miterlimit="10"
-                            stroke-width=".16"
+                            strokeWidth=".16"
                           />
                           <path
                             data-name="Path 450"

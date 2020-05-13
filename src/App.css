@@ -200,3 +200,7 @@ html {
     transform: translate(24px, 0);
   }
 }
+
+.text-anchor-middle {
+  text-anchor: middle;
+}

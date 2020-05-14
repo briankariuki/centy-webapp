@@ -104,13 +104,13 @@ class Quizzes extends Component {
         </div>
         <div className="lg:flex lg:space-x-8 space-x-0">
           <div className=" my-4">
+            <QuizzesResults />
+          </div>
+          <div className=" my-4">
             <RecentQuizzes />
           </div>
           <div className=" my-4">
             <RecommendedQuizzes />
-          </div>
-          <div className=" my-4">
-            <QuizzesResults />
           </div>
         </div>
       </div>

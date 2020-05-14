@@ -3,9 +3,17 @@ import Banner from "../components/Dashboard/Banner";
 import Progress from "../components/Dashboard/Progress";
 import SubjectsCard from "../components/Dashboard/SubjectsCard";
 import ExamsCard from "../components/Dashboard/ExamsCard";
-import QuizzesCard from "../components/Dashboard/QuizzesCard";
+import RecommendedQuizzes from "../components/Dashboard/RecommendedQuizzes";
 import InfoTab from "../components/Dashboard/InfoTab";
 import AppBanner from "../components/Dashboard/centyAppBanner";
+import {
+  centygreen,
+  centyorange,
+  centypink,
+  centyblue,
+  centypurple,
+  centyteal,
+} from "../factories/colorClasses";
 
 class Dashboard extends Component {
   render() {
@@ -27,7 +35,7 @@ class Dashboard extends Component {
               <InfoTab value={3} topic="Incomplete Quizzes" color="#FF9057" />
             </div>
             <div className="mt-4">
-              <QuizzesCard />
+              <RecommendedQuizzes />
             </div>
           </div>
 

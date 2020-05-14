@@ -1,0 +1,12 @@
+export const centygreen = "#00BB79";
+export const centyorange = "#FF9057";
+export const centypink = "#9013B4";
+export const centyteal = "#00B1D6";
+export const centypurple = "#1929D9";
+export const centyblue = "#007FD6";
+export const centydark = "#111111";
+export const centygrey = "#737373";
+export const centygrey2 = "#D2D2D2";
+export const centylightblue = "#FBFBFF";
+export const centylightgrey = "#F8F8F8";
+export const centylightdark = "#BEBEBE";

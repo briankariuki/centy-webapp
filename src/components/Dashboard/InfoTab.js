@@ -6,10 +6,10 @@ const InfoTab = (props) => {
   const opColor = hexColor + "26";
   return (
     <div>
-      <div className="rounded-lg shadow-textarea">
-        <div className="flex px-3 py-3 space-x-4 items-center">
+      <div className="rounded-lg shadow-textarea min-w-80">
+        <div className=" flex px-3 py-3 space-x-4 items-center">
           <div
-            className="cursor-pointer h-10 w-10 text-xl font-medium rounded-lg flex items-center justify-center"
+            className="flex-shrink-0 cursor-pointer h-10 w-10 text-xl font-medium rounded-lg flex items-center justify-center"
             style={{
               backgroundColor: opColor,
             }}
@@ -24,7 +24,7 @@ const InfoTab = (props) => {
           </div>
           <div className="flex-1">
             <p className="text-sm text-centygrey">Stat</p>
-            <h2 className="font-medium text-lg text-centydark leading-6">
+            <h2 className="truncate font-medium text-lg text-centydark leading-6">
               {topic}
             </h2>
           </div>

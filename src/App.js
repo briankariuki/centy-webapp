@@ -13,6 +13,7 @@ import Navbar from "./components/Navbar";
 import Bfooter from "./components/Bfooter";
 import HomePage from "./pages/HomePage";
 import Login from "./pages/Login";
+import Quizzes from "./pages/Quizzes";
 import Dashboard from "./pages/Dashboard";
 
 class App extends Component {
@@ -36,6 +37,7 @@ class App extends Component {
                   <Redirect from="/login" to="/my-dashboard" exact />
                 )}
                 <Route path="/my-dashboard" component={Dashboard} exact />
+                <Route path="/quizzes" component={Quizzes} exact />
                 <Route path="/" component={HomePage} exact />
                 <Route path="/login" component={Login} exact />
               </Switch>

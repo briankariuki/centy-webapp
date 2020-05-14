@@ -1,6 +1,13 @@
 import React, { Component } from "react";
 import LineBar from "../Charts/LineBar";
-
+import {
+  centygreen,
+  centyorange,
+  centypink,
+  centyblue,
+  centypurple,
+  centyteal,
+} from "../../factories/colorClasses";
 class ExamsCard extends Component {
   render() {
     return (

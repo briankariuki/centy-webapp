@@ -219,3 +219,14 @@ html {
     width: 0 100%;
   }
 }
+
+.mobile-active-nav #active-tab {
+  color: #fff;
+  background-color: #00bb79;
+  border-radius: 12px;
+}
+
+.mobile-active-nav #active-tab div {
+  background-color: #c6f6d5;
+  color: #00bb79;
+}

@@ -190,6 +190,13 @@ class Navbar extends Component {
               <div className="flex-1 h-full">
                 <NavLink
                   onClick={this.toggle}
+                  to="/my-dashboard"
+                  className="focus:outline-none"
+                >
+                  <p className="py-4 px-6 font-medium">Dashboard</p>
+                </NavLink>
+                <NavLink
+                  onClick={this.toggle}
                   to="/"
                   className="focus:outline-none"
                 >

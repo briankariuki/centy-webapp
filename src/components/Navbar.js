@@ -40,7 +40,7 @@ class Navbar extends Component {
 
     return (
       <nav className="relative bg-white h-16  px-4 lg:px-0">
-        <div className="max-w-screen-xxl h-full lg:w-4/5 mx-auto flex text-centydark items-center justify-between">
+        <div className="max-w-screen-xxl h-full lg:w-9/10 mx-auto flex text-centydark items-center justify-between">
           <NavLink to="/">
             <p className="lg:text-2xl text-xl font-medium leading-6">
               Mwalimu Smart

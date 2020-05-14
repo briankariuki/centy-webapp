@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class SubjectCard extends Component {
   render() {
     return (
-      <div className="rounded-lg shadow-textarea">
+      <div className="flex-1 rounded-lg shadow-textarea">
         <div className=" px-4 py-6">
           <div className="flex items-center justify-between">
             <h2 className="font-medium text-lg text-centydark">Subjects</h2>
@@ -11,7 +11,7 @@ class SubjectCard extends Component {
               See All
             </button>
           </div>
-          <div className="mt-6 min-w-80 lg:min-w-0 lg:w-80">
+          <div className="mt-6 min-w-80 lg:min-w-0 md:w-80">
             <ul className="space-y-4 list-style-none">
               <li className="">
                 <button className=" w-full hover:shadow shadow-textarea rounded-md p-3 flex items-center bg-white justify-between focus:outline-none">

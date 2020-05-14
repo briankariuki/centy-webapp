@@ -4,7 +4,7 @@ import LineBar from "../Charts/LineBar";
 class ExamsCard extends Component {
   render() {
     return (
-      <div className="rounded-lg shadow-textarea">
+      <div className="flex-1 rounded-lg shadow-textarea">
         <div className="lg:px-4 px-3 py-6">
           <div className="flex items-center justify-between">
             <h2 className="font-medium text-lg text-centydark">
@@ -14,7 +14,7 @@ class ExamsCard extends Component {
               See More
             </button>
           </div>
-          <div className="mt-6 min-w-80 lg:min-w-0 lg:w-96">
+          <div className="mt-6 min-w-80 lg:min-w-0 lg:w-88">
             <ul className="list-style-none">
               <li className="border-b py-4">
                 <div className="grid grid-cols-8">
@@ -58,6 +58,29 @@ class ExamsCard extends Component {
                   <div className="col-span-1">
                     <p className=" text-centygrey font-medium text-base lg:text-lg ">
                       76 %
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li className="border-b py-4">
+                <div className="grid grid-cols-8">
+                  <div className="flex items-center col-span-3">
+                    <div className=" h-2 w-2 rounded-full bg-centygrey2"></div>
+                    <p className=" ml-3 text-centydark  text-base lg:text-lg ">
+                      Kiswahili
+                    </p>
+                  </div>
+                  <div className="mx-4 my-auto col-span-4">
+                    <LineBar
+                      progress={83}
+                      size={110}
+                      strokeWidth={8}
+                      lineOneStroke="#D2D2D2"
+                    />
+                  </div>
+                  <div className="col-span-1">
+                    <p className=" text-centygrey font-medium text-base lg:text-lg ">
+                      83 %
                     </p>
                   </div>
                 </div>

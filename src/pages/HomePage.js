@@ -64,12 +64,12 @@ class HomePage extends Component {
                           y2=".281"
                           gradientUnits="objectBoundingBox"
                         >
-                          <stop offset="0" stop-color="#210e4a" />
-                          <stop offset=".007" stop-color="#00a1ff" />
-                          <stop offset=".26" stop-color="#00beff" />
-                          <stop offset=".512" stop-color="#00d2ff" />
-                          <stop offset=".76" stop-color="#00dfff" />
-                          <stop offset="1" stop-color="#00e3ff" />
+                          <stop offset="0" stopColor="#210e4a" />
+                          <stop offset=".007" stopColor="#00a1ff" />
+                          <stop offset=".26" stopColor="#00beff" />
+                          <stop offset=".512" stopColor="#00d2ff" />
+                          <stop offset=".76" stopColor="#00dfff" />
+                          <stop offset="1" stopColor="#00e3ff" />
                         </linearGradient>
                         <linearGradient
                           id="b"
@@ -79,10 +79,10 @@ class HomePage extends Component {
                           y2=".5"
                           gradientUnits="objectBoundingBox"
                         >
-                          <stop offset="0" stop-color="#ffe000" />
-                          <stop offset=".409" stop-color="#ffbd00" />
-                          <stop offset=".775" stop-color="orange" />
-                          <stop offset="1" stop-color="#ff9c00" />
+                          <stop offset="0" stopColor="#ffe000" />
+                          <stop offset=".409" stopColor="#ffbd00" />
+                          <stop offset=".775" stopColor="orange" />
+                          <stop offset="1" stopColor="#ff9c00" />
                         </linearGradient>
                         <linearGradient
                           id="c"
@@ -92,8 +92,8 @@ class HomePage extends Component {
                           y2="-.821"
                           gradientUnits="objectBoundingBox"
                         >
-                          <stop offset="0" stop-color="#ff3a44" />
-                          <stop offset="1" stop-color="#c31162" />
+                          <stop offset="0" stopColor="#ff3a44" />
+                          <stop offset="1" stopColor="#c31162" />
                         </linearGradient>
                         <linearGradient
                           id="d"
@@ -103,11 +103,11 @@ class HomePage extends Component {
                           y2="1.175"
                           gradientUnits="objectBoundingBox"
                         >
-                          <stop offset="0" stop-color="#32a071" />
-                          <stop offset=".069" stop-color="#2da771" />
-                          <stop offset=".476" stop-color="#15cf74" />
-                          <stop offset=".801" stop-color="#06e775" />
-                          <stop offset="1" stop-color="#00f076" />
+                          <stop offset="0" stopColor="#32a071" />
+                          <stop offset=".069" stopColor="#2da771" />
+                          <stop offset=".476" stopColor="#15cf74" />
+                          <stop offset=".801" stopColor="#06e775" />
+                          <stop offset="1" stopColor="#00f076" />
                         </linearGradient>
                       </defs>
                       <g data-name="Group 159">
@@ -126,7 +126,7 @@ class HomePage extends Component {
                             d="M47.53 10.15a2.69 2.69 0 01-.74 2 3 3 0 01-2.21.88 3.06 3.06 0 01-2.21-.89 3 3 0 01-.91-2.22 3.09 3.09 0 013.12-3.11 3.18 3.18 0 011.23.25 2.44 2.44 0 01.94.66l-.52.52a2.05 2.05 0 00-1.65-.7 2.31 2.31 0 00-1.64.66 2.27 2.27 0 00-.69 1.71 2.28 2.28 0 00.69 1.72 2.33 2.33 0 001.64.66 2.3 2.3 0 001.68-.66 1.85 1.85 0 00.5-1.2h-2.19V9.7h2.91a2 2 0 01.05.45zm4.62-2.48h-2.73v1.88h2.47v.72h-2.47v1.88h2.74v.73h-3.52V6.94h3.51zm3.26 5.21h-.77V7.67H53v-.73h4.13v.73h-1.72zm4.67 0V6.94h.77v5.94zm4.2 0h-.77V7.67h-1.68v-.73H66v.73h-1.72zm9.5-.77a3.15 3.15 0 01-4.41 0 3 3 0 01-.89-2.21 3 3 0 01.89-2.21 3.14 3.14 0 014.41 0 3 3 0 01.89 2.2 3 3 0 01-.89 2.22zm-3.84-.5a2.306 2.306 0 003.94-1.71 2.306 2.306 0 10-4.61 0 2.32 2.32 0 00.68 1.72zm5.82 1.27V6.94h.94l2.92 4.62h0V6.94h.77v5.94h-.81L76.53 8h0v4.85z"
                             fill="#fff"
                             stroke="#fff"
-                            stroke-miterlimit="10"
+                            strokemilterlimit="10"
                             strokeWidth=".16"
                           />
                           <path

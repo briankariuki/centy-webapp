@@ -14,6 +14,7 @@ import Bfooter from "./components/Bfooter";
 import HomePage from "./pages/HomePage";
 import Login from "./pages/Login";
 import Quizzes from "./pages/Quizzes";
+import QuizzPage from "./pages/QuizzPage";
 import Dashboard from "./pages/Dashboard";
 
 class App extends Component {
@@ -38,6 +39,7 @@ class App extends Component {
                 )}
                 <Route path="/my-dashboard" component={Dashboard} exact />
                 <Route path="/quizzes" component={Quizzes} exact />
+                <Route path="/quizz/1" component={QuizzPage} exact />
                 <Route path="/" component={HomePage} exact />
                 <Route path="/login" component={Login} exact />
               </Switch>
